@@ -225,7 +225,7 @@ section{
 }
 .skills{
     background-color: var(--bg-color);
-    color: black;
+    color: white;
 }
 .skills h2{
     color: var(--text-color);
@@ -233,8 +233,11 @@ section{
 .skills-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    align-items: right;
+    align-items: center;
     gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 .skill-box{
     display:flex;
@@ -246,7 +249,7 @@ section{
     cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
-}
+} 
 .skill-box:hover{
     background-color: var(--second-color);
     color: var(--main-color);
