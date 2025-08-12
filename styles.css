@@ -40,14 +40,14 @@ body{
     display: none;
 }
 .logo{
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 .logo:hover{
-    transform: scale(1.1);
+    transform: scale(2);
 }
 span{
     background: linear-gradient(
@@ -60,7 +60,7 @@ span{
     color: transparent;
 }
 .navbar a{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 500;
@@ -72,7 +72,7 @@ span{
     border-bottom: 3px solid var(--main-color);
 }
 .gradient-btn{
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
     background: linear-gradient(
@@ -119,7 +119,7 @@ section{
     font-size: 4rem;
 }
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.8;
 }
@@ -209,7 +209,7 @@ section{
     text-align: left;
 }
 .about-content p{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 .about-content .btn{
     margin: 3rem 0;
@@ -275,7 +275,7 @@ section{
     font-weight: 800;
 }
 .skill-info p{
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     font-weight: 600;
     line-height: 1.7;
 }
